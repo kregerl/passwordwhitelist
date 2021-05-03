@@ -1,0 +1,30 @@
+	modLoader="javafml"
+	loaderVersion="[36,)"
+	license="MIT"
+	
+[[mods]]
+	modId="passwordwhitelist"
+	version="1.0.0"
+	displayName="Password Whitelist"
+	displayURL=""
+	issueTrackerURL=""
+	logoFile="logo.png"
+	credits=""
+	authors="AreUThreateningMe"
+	description='''
+	Put a password on your server and require it to be whitelisted.  
+'''
+
+[[dependencies.passwordwhitelist]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.passwordwhitelist]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="AFTER"
+    side="BOTH"
